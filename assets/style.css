@@ -1,0 +1,5 @@
+/*Fix for sticky navbar*/
+body{padding-top: 4.5rem;}
+
+#footerLinks a{color:#fff;}
+#footerLinks h4{font-weight:bold;}
