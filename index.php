@@ -1,4 +1,7 @@
 <?php
+	// Erez Aton - 311530539
+	// Rephael Khanokayev - 312064041
+
 	//Include all files
 	require 'config.php';
 	require 'db.php';
