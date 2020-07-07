@@ -4,6 +4,8 @@
 	require 'db.php';
 	require 'func.php';
 	
+	$lastActive = getAndSaveActive();
+
 	if(isset($_GET['product'])){ //Ajax calls
 		if ($_SERVER['REQUEST_METHOD'] === 'GET') {
 			require 'ajax/list.php';

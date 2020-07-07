@@ -1,29 +1,11 @@
-	<section class="container mb-3" id="contactUs">
-		
-		<form class="bg-light p-3" method="post" action="">
-			<h2>Having a problem?</h2>
-			<p>No problem! Send us an email and we'll help you right away.</p>
-			<div class="form-group">
-				<label for="formName">Your Name:</label>
-				<input type="text" class="form-control" id="formName" required>
-			</div>
-			<div class="form-group">
-				<label for="formEmail">Your Email:</label>
-				<input type="email" class="form-control" id="formEmail" required>
-			</div>
-			<div class="form-group">
-				<label for="formPhone">Your Phone:</label>
-				<input type="text" class="form-control" id="formPhone">
-			</div>
-			<div class="form-group">
-				<label for="formMsg">Your Message:</label>
-				<textarea class="form-control" id="formMsg" required></textarea>
-			</div>
-			<button type="submit" class="btn btn-primary">Submit</button>
-			<p>Or you can send us an <a href="mailto:erezaton213@gmail.com?subject=Hello%20there&body=I%20wanted%20to%20get%20in%20touch%20with%20you">email</a>.</p>
-		</form>
-	</section>
 	
+	<section class="container pt-4">
+		<hr />
+		<h2>Location of Our Store:</h2>
+		
+		<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.537784604975!2d34.59671168484972!3d31.509386381373215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502814a96e693ed%3A0xd2f92addc3834b6c!2z15TXnteb15zXnNeUINeU15DXp9eT157XmdeqINeh16TXmdeo!5e0!3m2!1siw!2sil!4v1586085766587!5m2!1siw!2sil" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</section>
+
 	<section class="container bg-secondary text-light" id="footerLinks">
 		<div class="row">
 			<div class="col-md-4 content-list p-4">
@@ -54,32 +36,10 @@
 		Copyright (c) <a href="https://github.com/erez213">Erez Aton</a> & Rephael Khanokayev
 	</footer>
 	
-	<div class="modal" tabindex="-1" role="dialog" id="cartModal">
-	  <div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<form method="post" action="">
-			  <div class="modal-header">
-				<h5 class="modal-title">Your Cart</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				  <span aria-hidden="true">&times;</span>
-				</button>
-			  </div>
-			  <div class="modal-body">
-			  </div>
-			  <div class="modal-footer">
-				<input type="submit" class="btn btn-primary" id="orderBtn" disabled value="Place Order" />
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			  </div>
-			</form>
-		</div>
-	  </div>
-	</div>
-	
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<script src="https://kit.fontawesome.com/f85d415f7f.js" crossorigin="anonymous"></script>
 	
 	<script src="assets/script.js"></script>
   </body>

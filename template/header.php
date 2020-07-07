@@ -32,6 +32,10 @@
 		</nav>
 	</header>
 	
+	<div class="alert alert-secondary" role="alert">
+		Last time active: <?=date('d/m/Y H:i',$lastActive) ?>
+	</div>
+	
 	<section class="container">
 		<div class="jumbotron">
 		  <h1 class="display-4">Welcome!</h1>
