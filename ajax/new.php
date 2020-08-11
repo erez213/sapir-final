@@ -15,6 +15,6 @@
 	if(!filter_var($image, FILTER_VALIDATE_URL))err('Image must be valid URL');
 	
 	//Everything checks out fine -> create the product
-	$mysqli->query("INSERT INTO `product` (`name`,`description`,`price`,`picture`) VALUES ('".esc($name)."','".esc($description)."','".esc($price)."','".esc($image)."')");
+	$products->create($name,$description,$price,$image);
 	
 	ok([]);

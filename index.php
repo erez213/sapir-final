@@ -6,8 +6,10 @@
 	require 'config.php';
 	require 'db.php';
 	require 'func.php';
+	require 'products.php';
 	
 	$lastActive = getAndSaveActive();
+	$products = new Products($mysqli);
 
 	if(isset($_GET['product'])){ //Ajax calls
 		if ($_SERVER['REQUEST_METHOD'] === 'GET') {
